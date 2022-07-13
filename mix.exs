@@ -32,7 +32,7 @@ defmodule AWS.Mixfile do
       {:earmark, "~> 1.4", only: [:dev]},
       {:ex_doc, "~> 0.24", only: [:dev]},
       {:bypass, "~> 2.1", only: [:test]},
-      {:hackney, "~> 1.16", optional: true}
+      {:hackney, "~> 1.17.0", optional: true}
     ]
   end
 
